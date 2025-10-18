@@ -95,55 +95,29 @@ export class HeadlineUpdater {
   }
 
   /**
-   * Scroll to ensure resume headline section is visible
+   * Navigate to resume headline section by clicking on it
    */
-  private async scrollToResumeHeadline(): Promise<void> {
+  private async navigateToResumeHeadline(): Promise<void> {
     if (!this.page) throw new Error('Page not initialized');
     
-    log.debug('📜 Scrolling to resume headline section...');
+    log.debug('📜 Navigating to resume headline section...');
     
     try {
-      // Try to scroll to the resume headline section
-      // First, try to find any element that might indicate the resume section
-      const resumeSelectors = [
-        'text="Resume headline"',
-        '#lazyResumeHead',
-        '.resumeHeadline',
-        '.prefill.typ-14Medium',
-        'span.edit.icon'
-      ];
+      // First, click on the "Resume headline" text to navigate to that section
+      const resumeHeadlineSelector = "xpath=//span[text()='Resume headline'][1]";
+      const resumeHeadlineElement = this.page.locator(resumeHeadlineSelector);
       
-      for (const selector of resumeSelectors) {
-        try {
-          const element = this.page.locator(selector).first();
-          if (await element.count() > 0) {
-            log.debug(`Found resume section with selector: ${selector}`);
-            await element.scrollIntoViewIfNeeded();
-            await randomSleep(1000, 2000); // Wait for scroll to complete
-            return;
-          }
-        } catch (error) {
-          // Continue to next selector
-        }
-      }
-      
-      // If no specific element found, scroll down gradually to find the resume section
-      log.debug('No specific resume element found, scrolling down gradually...');
-      for (let i = 0; i < 3; i++) {
-        // Use Playwright's mouse wheel to scroll down
-        await this.page.mouse.wheel(0, 300);
-        await randomSleep(500, 1000);
-        
-        // Check if resume headline is now visible
-        const resumeVisible = await this.page.locator('text="Resume headline"').count() > 0;
-        if (resumeVisible) {
-          log.debug('Resume headline section found after scrolling');
-          break;
-        }
+      if (await resumeHeadlineElement.count() > 0) {
+        log.debug('Found Resume headline section, clicking to navigate...');
+        await resumeHeadlineElement.click();
+        await randomSleep(1000, 2000); // Wait for navigation/expansion
+        log.debug('Successfully clicked on Resume headline section');
+      } else {
+        log.warn('Resume headline section not found, continuing anyway...');
       }
       
     } catch (error) {
-      log.warn('Error during scrolling, continuing anyway:', error);
+      log.warn('Error navigating to resume headline section, continuing anyway:', error);
     }
   }
 
@@ -364,7 +338,7 @@ export class HeadlineUpdater {
       }
 
       // Scroll to ensure resume headline section is visible
-      await this.scrollToResumeHeadline();
+      await this.navigateToResumeHeadline();
 
       // Get current headline
       const currentHeadline = await this.getCurrentHeadline();

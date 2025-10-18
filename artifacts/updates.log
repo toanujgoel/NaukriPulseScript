@@ -563,3 +563,73 @@
 {"timestamp":"2025-10-18T15:00:50.230Z","level":"INFO","message":"  Successful: 0"}
 {"timestamp":"2025-10-18T15:00:50.230Z","level":"INFO","message":"  Failed: 1"}
 {"timestamp":"2025-10-18T15:00:50.231Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T18:06:13.509Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T18:06:13.510Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T18:06:13.511Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T18:06:13.512Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T18:06:13.514Z","level":"INFO","message":"🚀 Launching browser for authentication..."}
+{"timestamp":"2025-10-18T18:06:15.076Z","level":"INFO","message":"📱 Navigating to Naukri login page..."}
+{"timestamp":"2025-10-18T18:06:19.854Z","level":"INFO","message":"✅ Login page loaded successfully"}
+{"timestamp":"2025-10-18T18:06:19.862Z","level":"INFO","message":"Please complete the login process in the browser window:"}
+{"timestamp":"2025-10-18T18:06:19.864Z","level":"INFO","message":"1. Enter your email/mobile number"}
+{"timestamp":"2025-10-18T18:06:19.871Z","level":"INFO","message":"2. Enter your password"}
+{"timestamp":"2025-10-18T18:06:19.874Z","level":"INFO","message":"3. Complete OTP verification if required"}
+{"timestamp":"2025-10-18T18:06:19.876Z","level":"INFO","message":"4. Wait for redirect to profile page"}
+{"timestamp":"2025-10-18T18:07:18.830Z","level":"INFO","message":"✅ Login successful! Detected profile page."}
+{"timestamp":"2025-10-18T18:07:18.832Z","level":"INFO","message":"Current URL: https://www.naukri.com/mnjuser/homepage"}
+{"timestamp":"2025-10-18T18:07:18.833Z","level":"INFO","message":"✅ Successfully reached profile area"}
+{"timestamp":"2025-10-18T18:07:48.958Z","level":"WARN","message":"Could not navigate to target profile URL, but login appears successful","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T18:07:49.306Z","level":"INFO","message":"💾 Authentication state saved successfully"}
+{"timestamp":"2025-10-18T18:07:49.307Z","level":"INFO","message":"📁 Saved to: D:\\Code Repos\\NaukriPulseScript\\auth\\storageState.json"}
+{"timestamp":"2025-10-18T18:07:49.308Z","level":"INFO","message":"🎉 Authentication setup completed successfully!"}
+{"timestamp":"2025-10-18T18:07:49.308Z","level":"INFO","message":"You can now run the automation script with:"}
+{"timestamp":"2025-10-18T18:07:49.309Z","level":"INFO","message":"  npm start     (continuous mode)"}
+{"timestamp":"2025-10-18T18:07:49.310Z","level":"INFO","message":"  npm run once  (single run)"}
+{"timestamp":"2025-10-18T18:08:01.217Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T18:08:01.218Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T18:08:01.219Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T18:08:01.219Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T18:08:01.220Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T18:08:01.223Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T18:08:01.224Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T18:08:46.970Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T18:08:47.789Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45747,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:08:47.790Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:08:47.791Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T18:08:47.792Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T18:08:47.792Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T18:08:47.793Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T18:08:47.793Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T18:08:47.794Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T18:13:35.117Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T18:13:35.119Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T18:13:35.119Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T18:13:35.120Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T18:13:35.120Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T18:13:35.122Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T18:13:35.123Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T18:14:20.909Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T18:14:21.838Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45785,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:14:21.839Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:14:21.840Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T18:14:21.840Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T18:14:21.841Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T18:14:21.842Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T18:14:21.842Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T18:14:21.842Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T18:15:55.599Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T18:15:55.600Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T18:15:55.600Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T18:15:55.601Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T18:15:55.603Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T18:15:55.607Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T18:15:55.607Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T18:16:41.267Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T18:16:42.083Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45662,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:16:42.085Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T18:16:42.086Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T18:16:42.086Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T18:16:42.087Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T18:16:42.087Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T18:16:42.088Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T18:16:42.088Z","level":"INFO","message":"  Success rate: 0.0%"}
