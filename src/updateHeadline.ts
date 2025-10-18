@@ -95,6 +95,59 @@ export class HeadlineUpdater {
   }
 
   /**
+   * Scroll to ensure resume headline section is visible
+   */
+  private async scrollToResumeHeadline(): Promise<void> {
+    if (!this.page) throw new Error('Page not initialized');
+    
+    log.debug('📜 Scrolling to resume headline section...');
+    
+    try {
+      // Try to scroll to the resume headline section
+      // First, try to find any element that might indicate the resume section
+      const resumeSelectors = [
+        'text="Resume headline"',
+        '#lazyResumeHead',
+        '.resumeHeadline',
+        '.prefill.typ-14Medium',
+        'span.edit.icon'
+      ];
+      
+      for (const selector of resumeSelectors) {
+        try {
+          const element = this.page.locator(selector).first();
+          if (await element.count() > 0) {
+            log.debug(`Found resume section with selector: ${selector}`);
+            await element.scrollIntoViewIfNeeded();
+            await randomSleep(1000, 2000); // Wait for scroll to complete
+            return;
+          }
+        } catch (error) {
+          // Continue to next selector
+        }
+      }
+      
+      // If no specific element found, scroll down gradually to find the resume section
+      log.debug('No specific resume element found, scrolling down gradually...');
+      for (let i = 0; i < 3; i++) {
+        // Use Playwright's mouse wheel to scroll down
+        await this.page.mouse.wheel(0, 300);
+        await randomSleep(500, 1000);
+        
+        // Check if resume headline is now visible
+        const resumeVisible = await this.page.locator('text="Resume headline"').count() > 0;
+        if (resumeVisible) {
+          log.debug('Resume headline section found after scrolling');
+          break;
+        }
+      }
+      
+    } catch (error) {
+      log.warn('Error during scrolling, continuing anyway:', error);
+    }
+  }
+
+  /**
    * Get current headline from the page
    */
   private async getCurrentHeadline(): Promise<string | null> {
@@ -309,7 +362,10 @@ export class HeadlineUpdater {
       if (!authValid) {
         throw new Error('Authentication expired. Please run: npm run login');
       }
-      
+
+      // Scroll to ensure resume headline section is visible
+      await this.scrollToResumeHeadline();
+
       // Get current headline
       const currentHeadline = await this.getCurrentHeadline();
       oldHeadline = currentHeadline || 'Unknown';

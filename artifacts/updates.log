@@ -108,3 +108,458 @@
 {"timestamp":"2025-10-18T13:59:54.719Z","level":"INFO","message":"  Failed: 1"}
 {"timestamp":"2025-10-18T13:59:54.722Z","level":"INFO","message":"  Success rate: 0.0%"}
 {"timestamp":"2025-10-18T13:59:59.251Z","level":"INFO","message":"🔚 Shutdown complete"}
+{"timestamp":"2025-10-18T14:10:39.803Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:10:39.808Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:10:39.809Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:10:39.810Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:10:39.810Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:10:39.812Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:10:39.814Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:10:50.577Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:11:00.715Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:11:00.724Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:11:00.749Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:11:12.640Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:11:12.641Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:11:24.451Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:11:24.452Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:11:59.615Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:11:59.616Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:11:59.616Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:11:59.617Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:11:59.618Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:11:59.620Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:11:59.620Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:12:03.387Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:12:13.586Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:12:13.612Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:12:13.613Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:12:26.427Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:12:26.492Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:12:39.286Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:12:39.335Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:12:52.133Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:12:52.135Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:12:52.137Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:12:52.138Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:12:52.306Z","oldHeadline":"Unknown","newHeadline":"Senior Backend Developer","success":false,"durationMs":52518,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:12:52.310Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:12:52.310Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:12:52.311Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:12:52.312Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:12:52.312Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:12:52.312Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:12:52.313Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:14:16.062Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:14:16.063Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:14:16.064Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:14:16.065Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:14:16.065Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:14:16.067Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:14:16.068Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:14:19.954Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:14:30.167Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:14:30.169Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:14:30.170Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:14:43.522Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:14:43.526Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:14:56.857Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:14:56.859Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:15:10.231Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:15:10.233Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:15:10.237Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:15:10.244Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:15:10.498Z","oldHeadline":"Unknown","newHeadline":"Data Engineer","success":false,"durationMs":54176,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:15:10.502Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:15:10.503Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:15:10.504Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:15:10.505Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:15:10.506Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:15:10.506Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:15:10.507Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:15:54.802Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:15:54.803Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:15:54.804Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:15:54.805Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:15:54.806Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:15:54.807Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:15:54.807Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:15:59.708Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:16:09.191Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:16:09.192Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:16:09.193Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:16:21.995Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:16:21.997Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:16:34.846Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:16:34.863Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:16:47.635Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:16:47.637Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:16:47.639Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:16:47.676Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:16:47.841Z","oldHeadline":"Unknown","newHeadline":"Machine Learning Engineer","success":false,"durationMs":52868,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:16:47.843Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:16:47.843Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:16:47.844Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:16:47.844Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:16:47.845Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:16:47.845Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:16:47.846Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:19:37.114Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:19:37.116Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:19:37.116Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:19:37.117Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:19:37.118Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:19:37.121Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:19:37.122Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:19:41.977Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:19:52.254Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:19:52.256Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:19:52.258Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:20:05.968Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:20:05.969Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:20:19.708Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:20:19.725Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:20:33.453Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:20:33.454Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:20:33.455Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:20:33.456Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:20:33.603Z","oldHeadline":"Unknown","newHeadline":"Machine Learning Engineer","success":false,"durationMs":56335,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:20:33.605Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:20:33.605Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:20:33.606Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:20:33.606Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:20:33.607Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:20:33.607Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:20:33.607Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:21:10.656Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:21:10.657Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:21:10.658Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:21:10.662Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:21:10.663Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:21:10.668Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:21:10.670Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:21:14.459Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:21:24.130Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:21:24.132Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:21:24.133Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:21:37.008Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:21:37.010Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:21:49.839Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:21:49.840Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:22:02.718Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:22:02.724Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:22:02.727Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:22:02.731Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:22:02.969Z","oldHeadline":"Unknown","newHeadline":"Technical Lead","success":false,"durationMs":52062,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:22:02.973Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:22:02.973Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:22:02.975Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:22:02.976Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:22:02.977Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:22:02.977Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:22:02.978Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:22:34.273Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:22:34.275Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:22:34.275Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:22:34.276Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:22:34.277Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:22:34.279Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:22:34.280Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:22:37.463Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:22:47.733Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:22:47.736Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:22:47.737Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:23:01.799Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:23:01.801Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:23:15.945Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:23:16.021Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:23:30.076Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:23:30.078Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:23:30.080Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:23:30.082Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:23:30.351Z","oldHeadline":"Unknown","newHeadline":"Machine Learning Engineer","success":false,"durationMs":55803,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:23:30.354Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:23:30.355Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:23:30.356Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:23:30.358Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:23:30.359Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:23:30.360Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:23:30.361Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:24:06.840Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:24:06.842Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:24:06.844Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:24:06.844Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:24:06.845Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:24:06.847Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:24:06.847Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:24:10.081Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:24:20.498Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:24:20.500Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:24:20.501Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:24:34.770Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:24:34.773Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:27:08.324Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:27:08.325Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:27:08.326Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:27:08.326Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:27:08.327Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:27:08.329Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:27:08.329Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:27:13.102Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:27:23.600Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:27:23.602Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:27:23.603Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:27:37.607Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:27:37.609Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:27:51.711Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:27:51.713Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:28:05.749Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:28:05.751Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:28:05.753Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:28:05.755Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:28:05.985Z","oldHeadline":"Unknown","newHeadline":"Software Engineering Manager","success":false,"durationMs":57425,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:28:05.987Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:28:05.987Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:28:05.988Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:28:05.989Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:28:05.989Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:28:05.990Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:28:05.990Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:28:43.657Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:28:43.659Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:28:43.661Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:28:43.662Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:28:43.664Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:28:43.665Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:28:43.666Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:28:47.943Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:28:58.313Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:28:58.318Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:28:58.320Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:29:12.384Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:29:12.417Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:29:26.479Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:29:26.508Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:29:40.568Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:29:40.569Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:29:40.572Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:29:40.574Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:29:40.839Z","oldHeadline":"Unknown","newHeadline":"DevOps Engineer","success":false,"durationMs":56908,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:29:40.845Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:29:40.846Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:29:40.854Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:29:40.855Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:29:40.856Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:29:40.858Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:29:40.859Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:30:09.669Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:30:09.674Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:30:09.675Z","level":"INFO","message":"Headless: true"}
+{"timestamp":"2025-10-18T14:30:09.676Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:30:09.678Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:30:09.684Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:30:09.685Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:30:14.596Z","level":"INFO","message":"✅ Session is valid, proceeding with update"}
+{"timestamp":"2025-10-18T14:30:24.821Z","level":"WARN","message":"No visible element found for Current headline display text within timeout"}
+{"timestamp":"2025-10-18T14:30:24.838Z","level":"WARN","message":"Element not found for text extraction: Current headline display text"}
+{"timestamp":"2025-10-18T14:30:24.846Z","level":"WARN","message":"Could not read current headline from page"}
+{"timestamp":"2025-10-18T14:30:38.979Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:30:38.980Z","level":"WARN","message":"Attempt 1: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:30:53.136Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:30:53.152Z","level":"WARN","message":"Attempt 2: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:31:07.210Z","level":"WARN","message":"No visible element found for Edit headline button within timeout"}
+{"timestamp":"2025-10-18T14:31:07.219Z","level":"WARN","message":"Attempt 3: Element not found for Edit headline button"}
+{"timestamp":"2025-10-18T14:31:07.226Z","level":"ERROR","message":"Failed to click Edit headline button after 3 attempts"}
+{"timestamp":"2025-10-18T14:31:07.235Z","level":"ERROR","message":"❌ Failed to update headline on page","data":{}}
+{"timestamp":"2025-10-18T14:31:07.420Z","oldHeadline":"Unknown","newHeadline":"Experienced Software Developer","success":false,"durationMs":57553,"error":"Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:31:07.424Z","level":"ERROR","message":"❌ Update failed: Failed to update headline on page"}
+{"timestamp":"2025-10-18T14:31:07.424Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:31:07.425Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:31:07.426Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:31:07.427Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:31:07.427Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:31:07.427Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:31:54.863Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:31:54.864Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:31:54.865Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:31:54.866Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:31:54.866Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:31:54.869Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:31:54.870Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:32:41.096Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:32:42.123Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":46225,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:32:42.126Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:32:42.127Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:32:42.128Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:32:42.129Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:32:42.130Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:32:42.131Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:32:42.132Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:33:11.463Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:33:11.465Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:33:11.465Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:33:11.466Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:33:11.470Z","level":"INFO","message":"🚀 Launching browser for authentication..."}
+{"timestamp":"2025-10-18T14:33:12.208Z","level":"INFO","message":"📱 Navigating to Naukri login page..."}
+{"timestamp":"2025-10-18T14:33:19.706Z","level":"INFO","message":"✅ Login page loaded successfully"}
+{"timestamp":"2025-10-18T14:33:19.709Z","level":"INFO","message":"Please complete the login process in the browser window:"}
+{"timestamp":"2025-10-18T14:33:19.711Z","level":"INFO","message":"1. Enter your email/mobile number"}
+{"timestamp":"2025-10-18T14:33:19.713Z","level":"INFO","message":"2. Enter your password"}
+{"timestamp":"2025-10-18T14:33:19.714Z","level":"INFO","message":"3. Complete OTP verification if required"}
+{"timestamp":"2025-10-18T14:33:19.715Z","level":"INFO","message":"4. Wait for redirect to profile page"}
+{"timestamp":"2025-10-18T14:33:45.212Z","level":"INFO","message":"✅ Login successful! Detected profile page."}
+{"timestamp":"2025-10-18T14:33:45.219Z","level":"INFO","message":"Current URL: https://www.naukri.com/mnjuser/homepage"}
+{"timestamp":"2025-10-18T14:33:45.221Z","level":"INFO","message":"✅ Successfully reached profile area"}
+{"timestamp":"2025-10-18T14:34:15.358Z","level":"WARN","message":"Could not navigate to target profile URL, but login appears successful","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:34:15.695Z","level":"INFO","message":"💾 Authentication state saved successfully"}
+{"timestamp":"2025-10-18T14:34:15.695Z","level":"INFO","message":"📁 Saved to: D:\\Code Repos\\NaukriPulseScript\\auth\\storageState.json"}
+{"timestamp":"2025-10-18T14:34:15.696Z","level":"INFO","message":"🎉 Authentication setup completed successfully!"}
+{"timestamp":"2025-10-18T14:34:15.697Z","level":"INFO","message":"You can now run the automation script with:"}
+{"timestamp":"2025-10-18T14:34:15.698Z","level":"INFO","message":"  npm start     (continuous mode)"}
+{"timestamp":"2025-10-18T14:34:15.698Z","level":"INFO","message":"  npm run once  (single run)"}
+{"timestamp":"2025-10-18T14:34:35.067Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:34:35.069Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:34:35.070Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:34:35.071Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:34:35.072Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:34:35.075Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:34:35.079Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:35:21.009Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:35:22.122Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45930,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:35:22.126Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:35:22.127Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:35:22.128Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:35:22.129Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:35:22.130Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:35:22.131Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:35:22.132Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:37:00.530Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:37:00.531Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:37:00.532Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:37:00.533Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:37:00.536Z","level":"INFO","message":"🚀 Launching browser for authentication..."}
+{"timestamp":"2025-10-18T14:37:01.127Z","level":"INFO","message":"📱 Navigating to Naukri login page..."}
+{"timestamp":"2025-10-18T14:37:06.771Z","level":"INFO","message":"✅ Login page loaded successfully"}
+{"timestamp":"2025-10-18T14:37:06.786Z","level":"INFO","message":"Please complete the login process in the browser window:"}
+{"timestamp":"2025-10-18T14:37:06.788Z","level":"INFO","message":"1. Enter your email/mobile number"}
+{"timestamp":"2025-10-18T14:37:06.801Z","level":"INFO","message":"2. Enter your password"}
+{"timestamp":"2025-10-18T14:37:06.813Z","level":"INFO","message":"3. Complete OTP verification if required"}
+{"timestamp":"2025-10-18T14:37:06.819Z","level":"INFO","message":"4. Wait for redirect to profile page"}
+{"timestamp":"2025-10-18T14:37:29.732Z","level":"INFO","message":"✅ Login successful! Detected profile page."}
+{"timestamp":"2025-10-18T14:37:29.737Z","level":"INFO","message":"Current URL: https://www.naukri.com/mnjuser/homepage"}
+{"timestamp":"2025-10-18T14:37:29.739Z","level":"INFO","message":"✅ Successfully reached profile area"}
+{"timestamp":"2025-10-18T14:37:59.867Z","level":"WARN","message":"Could not navigate to target profile URL, but login appears successful","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:38:00.201Z","level":"INFO","message":"💾 Authentication state saved successfully"}
+{"timestamp":"2025-10-18T14:38:00.202Z","level":"INFO","message":"📁 Saved to: D:\\Code Repos\\NaukriPulseScript\\auth\\storageState.json"}
+{"timestamp":"2025-10-18T14:38:00.203Z","level":"INFO","message":"🎉 Authentication setup completed successfully!"}
+{"timestamp":"2025-10-18T14:38:00.203Z","level":"INFO","message":"You can now run the automation script with:"}
+{"timestamp":"2025-10-18T14:38:00.204Z","level":"INFO","message":"  npm start     (continuous mode)"}
+{"timestamp":"2025-10-18T14:38:00.204Z","level":"INFO","message":"  npm run once  (single run)"}
+{"timestamp":"2025-10-18T14:43:21.147Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:43:21.149Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:43:21.151Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:43:21.152Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:43:21.153Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:43:21.158Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:43:21.163Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:44:07.075Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:44:08.108Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45911,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:44:08.110Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:44:08.110Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:44:08.111Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:44:08.112Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:44:08.112Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:44:08.113Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:44:08.113Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:44:31.075Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:44:31.076Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:44:31.077Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:44:31.078Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:44:31.081Z","level":"INFO","message":"🚀 Launching browser for authentication..."}
+{"timestamp":"2025-10-18T14:44:31.732Z","level":"INFO","message":"📱 Navigating to Naukri login page..."}
+{"timestamp":"2025-10-18T14:44:42.030Z","level":"INFO","message":"✅ Login page loaded successfully"}
+{"timestamp":"2025-10-18T14:44:42.091Z","level":"INFO","message":"Please complete the login process in the browser window:"}
+{"timestamp":"2025-10-18T14:44:42.093Z","level":"INFO","message":"1. Enter your email/mobile number"}
+{"timestamp":"2025-10-18T14:44:42.094Z","level":"INFO","message":"2. Enter your password"}
+{"timestamp":"2025-10-18T14:44:42.107Z","level":"INFO","message":"3. Complete OTP verification if required"}
+{"timestamp":"2025-10-18T14:44:42.109Z","level":"INFO","message":"4. Wait for redirect to profile page"}
+{"timestamp":"2025-10-18T14:44:55.916Z","level":"INFO","message":"✅ Login successful! Detected profile page."}
+{"timestamp":"2025-10-18T14:44:55.920Z","level":"INFO","message":"Current URL: https://www.naukri.com/mnjuser/homepage"}
+{"timestamp":"2025-10-18T14:44:55.926Z","level":"INFO","message":"✅ Successfully reached profile area"}
+{"timestamp":"2025-10-18T14:45:26.054Z","level":"WARN","message":"Could not navigate to target profile URL, but login appears successful","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:45:26.425Z","level":"INFO","message":"💾 Authentication state saved successfully"}
+{"timestamp":"2025-10-18T14:45:26.426Z","level":"INFO","message":"📁 Saved to: D:\\Code Repos\\NaukriPulseScript\\auth\\storageState.json"}
+{"timestamp":"2025-10-18T14:45:26.426Z","level":"INFO","message":"🎉 Authentication setup completed successfully!"}
+{"timestamp":"2025-10-18T14:45:26.427Z","level":"INFO","message":"You can now run the automation script with:"}
+{"timestamp":"2025-10-18T14:45:26.427Z","level":"INFO","message":"  npm start     (continuous mode)"}
+{"timestamp":"2025-10-18T14:45:26.428Z","level":"INFO","message":"  npm run once  (single run)"}
+{"timestamp":"2025-10-18T14:45:37.990Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:45:37.992Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:45:37.996Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:45:37.997Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:45:37.998Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:45:38.000Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:45:38.001Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:46:23.877Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:46:24.855Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45876,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:46:24.858Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:46:24.859Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:46:24.860Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:46:24.861Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:46:24.863Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:46:24.864Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:46:24.864Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:57:05.781Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:57:05.784Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T14:57:05.785Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:57:05.786Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:57:05.787Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:57:05.790Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T14:57:05.792Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T14:57:51.701Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:57:53.043Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45907,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:57:53.045Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T14:57:53.046Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T14:57:53.047Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T14:57:53.048Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T14:57:53.049Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T14:57:53.051Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T14:57:53.052Z","level":"INFO","message":"  Success rate: 0.0%"}
+{"timestamp":"2025-10-18T14:58:07.978Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T14:58:07.979Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T14:58:07.980Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T14:58:07.981Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T14:58:07.983Z","level":"INFO","message":"🚀 Launching browser for authentication..."}
+{"timestamp":"2025-10-18T14:58:08.611Z","level":"INFO","message":"📱 Navigating to Naukri login page..."}
+{"timestamp":"2025-10-18T14:58:15.648Z","level":"INFO","message":"✅ Login page loaded successfully"}
+{"timestamp":"2025-10-18T14:58:15.651Z","level":"INFO","message":"Please complete the login process in the browser window:"}
+{"timestamp":"2025-10-18T14:58:15.652Z","level":"INFO","message":"1. Enter your email/mobile number"}
+{"timestamp":"2025-10-18T14:58:15.653Z","level":"INFO","message":"2. Enter your password"}
+{"timestamp":"2025-10-18T14:58:15.654Z","level":"INFO","message":"3. Complete OTP verification if required"}
+{"timestamp":"2025-10-18T14:58:15.658Z","level":"INFO","message":"4. Wait for redirect to profile page"}
+{"timestamp":"2025-10-18T14:58:29.503Z","level":"INFO","message":"✅ Login successful! Detected profile page."}
+{"timestamp":"2025-10-18T14:58:29.508Z","level":"INFO","message":"Current URL: https://www.naukri.com/mnjuser/homepage"}
+{"timestamp":"2025-10-18T14:58:29.509Z","level":"INFO","message":"✅ Successfully reached profile area"}
+{"timestamp":"2025-10-18T14:58:59.639Z","level":"WARN","message":"Could not navigate to target profile URL, but login appears successful","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T14:58:59.993Z","level":"INFO","message":"💾 Authentication state saved successfully"}
+{"timestamp":"2025-10-18T14:58:59.994Z","level":"INFO","message":"📁 Saved to: D:\\Code Repos\\NaukriPulseScript\\auth\\storageState.json"}
+{"timestamp":"2025-10-18T14:58:59.995Z","level":"INFO","message":"🎉 Authentication setup completed successfully!"}
+{"timestamp":"2025-10-18T14:58:59.995Z","level":"INFO","message":"You can now run the automation script with:"}
+{"timestamp":"2025-10-18T14:58:59.996Z","level":"INFO","message":"  npm start     (continuous mode)"}
+{"timestamp":"2025-10-18T14:58:59.996Z","level":"INFO","message":"  npm run once  (single run)"}
+{"timestamp":"2025-10-18T15:00:03.289Z","level":"INFO","message":"Mode: once"}
+{"timestamp":"2025-10-18T15:00:03.291Z","level":"INFO","message":"Runs: 1"}
+{"timestamp":"2025-10-18T15:00:03.292Z","level":"INFO","message":"Headless: false"}
+{"timestamp":"2025-10-18T15:00:03.293Z","level":"INFO","message":"Delay range: 1200-1800 seconds"}
+{"timestamp":"2025-10-18T15:00:03.294Z","level":"INFO","message":"Headlines pool: 10 options"}
+{"timestamp":"2025-10-18T15:00:03.298Z","level":"INFO","message":"📊 Starting run #1 of 1"}
+{"timestamp":"2025-10-18T15:00:03.301Z","level":"INFO","message":"🔄 Starting headline update cycle..."}
+{"timestamp":"2025-10-18T15:00:49.245Z","level":"ERROR","message":"Failed to navigate to profile page","data":{"name":"TimeoutError"}}
+{"timestamp":"2025-10-18T15:00:50.225Z","oldHeadline":"","newHeadline":"","success":false,"durationMs":45944,"error":"Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T15:00:50.227Z","level":"ERROR","message":"❌ Update failed: Authentication expired. Please run: npm run login"}
+{"timestamp":"2025-10-18T15:00:50.227Z","level":"INFO","message":"📈 Statistics: 0 successful, 1 failed"}
+{"timestamp":"2025-10-18T15:00:50.228Z","level":"INFO","message":"📊 Final Statistics:"}
+{"timestamp":"2025-10-18T15:00:50.229Z","level":"INFO","message":"  Total runs: 1"}
+{"timestamp":"2025-10-18T15:00:50.230Z","level":"INFO","message":"  Successful: 0"}
+{"timestamp":"2025-10-18T15:00:50.230Z","level":"INFO","message":"  Failed: 1"}
+{"timestamp":"2025-10-18T15:00:50.231Z","level":"INFO","message":"  Success rate: 0.0%"}
