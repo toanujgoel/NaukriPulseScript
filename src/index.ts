@@ -81,7 +81,7 @@ class NaukriPulseApp {
           break;
           
         default:
-          if (arg.startsWith('--')) {
+          if (arg && arg.startsWith('--')) {
             log.warn(`Unknown argument: ${arg}`);
           }
           break;

@@ -82,11 +82,11 @@ export class HeadlineUpdater {
       
       // Check if redirected to login page (session expired)
       if (currentUrl.includes('/nlogin/')) {
-        log.sessionValidation(false, currentUrl);
+        log.logSessionValidation(false, currentUrl);
         return false;
       }
       
-      log.sessionValidation(true);
+      log.logSessionValidation(true);
       return true;
     } catch (error) {
       log.error('Failed to navigate to profile page', error);
@@ -383,7 +383,7 @@ export async function updateHeadlineOnce(): Promise<UpdateResult> {
     newHeadline: result.newHeadline,
     success: result.success,
     durationMs: result.durationMs,
-    error: result.error
+    ...(result.error && { error: result.error })
   };
   
   log.logUpdate(logEntry);

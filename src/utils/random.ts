@@ -85,7 +85,8 @@ export function randomChoice<T>(array: T[]): T {
     throw new Error('Cannot choose from empty array');
   }
   const index = randomInt(0, array.length - 1);
-  return array[index];
+  // Safe assertion since we've validated array length and index bounds
+  return array[index] as T;
 }
 
 /**
@@ -111,7 +112,8 @@ export function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = randomInt(0, i);
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    // Safe assertions since we're working within array bounds
+    [shuffled[i], shuffled[j]] = [shuffled[j] as T, shuffled[i] as T];
   }
   return shuffled;
 }

@@ -6,7 +6,7 @@ import { log } from './log';
  */
 export interface SelectorConfig {
   primary: string;
-  fallbacks: string[];
+  fallbacks: readonly string[];
   description: string;
 }
 
