@@ -1,0 +1,37 @@
+{
+  "name": "naukri-pulse-script",
+  "version": "1.0.0",
+  "description": "Automated Naukri.com resume headline updater using Playwright",
+  "main": "src/index.ts",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "login": "ts-node src/login.ts",
+    "start": "ts-node src/index.ts",
+    "once": "ts-node src/index.ts --runs 1",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [
+    "naukri",
+    "automation",
+    "playwright",
+    "typescript",
+    "resume",
+    "job-search"
+  ],
+  "author": "Senior Automation Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
